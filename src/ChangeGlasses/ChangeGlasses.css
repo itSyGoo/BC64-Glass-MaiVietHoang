@@ -22,47 +22,48 @@
   top: 111px;
   left: 75px;
   width: 220px;
+}
 
-  .selected-glasses-img {
-    width: 100%;
-  }
+.selected-glasses-img {
+  width: 100%;
+}
 
-  .glasses-details {
-    background: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    left: -75px;
-    width: 370px;
-    top: 190px;
-    height: 150px;
-    text-align: center;
-  }
+.glasses-details {
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  left: -75px;
+  width: 370px;
+  top: 190px;
+  height: 150px;
+  text-align: center;
+}
 
-  .glasses-list-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+.glasses-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  .glasses-img {
-    width: 120px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
-  }
+.glasses-img {
+  width: 120px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
 
-  .glasses-img:hover {
-    transform: scale(1.1);
-  }
+.glasses-img:hover {
+  transform: scale(1.1);
+}
 
-  .remove-glasses-btn {
-    padding: 5px 15px;
-    background-color: #ff4444;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+.remove-glasses-btn {
+  padding: 3px 10px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
-  .remove-glasses-btn:hover {
-    background-color: #cc0000;
-  }
+.remove-glasses-btn:hover {
+  background-color: #cc0000;
 }
